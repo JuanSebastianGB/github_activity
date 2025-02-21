@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
-import argparse
 import os
-from datetime import datetime, timedelta
+import sys
+import argparse
 from random import randint
 from subprocess import Popen
-import sys
+from datetime import datetime, timedelta
 
 
 class GitRepository:
